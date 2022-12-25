@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=EtudeKernel With Docker by wwlwwl
+kernel.string=VenusKernel With Docker by wwlwwl
 do.devicecheck=1
 do.modules=1
 do.systemless=1
@@ -28,7 +28,7 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## boot shell variables
-block=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+block=boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
